@@ -9,11 +9,21 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/SceneLoader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FinishPlatform.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/SceneLoader.cs" />
+      <option value="$PROJECT_DIR$/Assets/PlayerSFX.cs" />
       <option value="$PROJECT_DIR$/Assets/PlayerMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Obstacle.cs" />
+      <option value="$PROJECT_DIR$/Assets/SceneLoader.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerComponentCollection.cs" />
+      <option value="$PROJECT_DIR$/Assets/FinishPlatform.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Obstacle.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerComponentCollection.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerSFX.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1yxI5UfH7DbvbLk0RUo5vCJEI4z" />
@@ -57,7 +67,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633186630488</updated>
-      <workItem from="1633186635586" duration="5863000" />
+      <workItem from="1633186635586" duration="6596000" />
+      <workItem from="1633253976213" duration="9977000" />
     </task>
     <servers />
   </component>

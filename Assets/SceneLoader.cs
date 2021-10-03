@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,8 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    private void OnCollisionEnter(Collision other)
+    public void LoadNextScene()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        var nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
+
+        if (nextSceneIndex >= SceneManager.sceneCountInBuildSettings)
+            nextSceneIndex = 0;
+
+        SceneManager.LoadScene(nextSceneIndex);
     }
+
+    public void RestartCurrentScene() => SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 }
