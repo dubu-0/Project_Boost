@@ -7,10 +7,10 @@ namespace Player
     [RequireComponent(typeof(PlayerMovement))]
     [RequireComponent(typeof(AudioSource))]
     [RequireComponent(typeof(Rigidbody))]
-    [RequireComponent(typeof(PlayerComponentCollection))]
-    public class PlayerComponentCollection : MonoBehaviour
+    [RequireComponent(typeof(PlayerCachedComponents))]
+    public class PlayerCachedComponents : MonoBehaviour
     {
-        private PlayerComponentCollection() { }
+        private PlayerCachedComponents() { }
         
         public static Rigidbody Rigidbody { get; private set; }
         public static AudioSource AudioSource { get; private set; }

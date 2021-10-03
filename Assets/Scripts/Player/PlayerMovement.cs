@@ -38,7 +38,7 @@ namespace Player
             if (GetBoostSpeed() > 0) 
                 _rigidbody.AddRelativeForce(Vector3.up * GetBoostSpeed() * Time.deltaTime);
         
-            PlayerComponentCollection.PlayerSFX.MuteEngine(GetBoostSpeed() <= 0);
+            PlayerCachedComponents.PlayerSFX.MuteEngine(GetBoostSpeed() <= 0);
         }
 
         private float GetRotationSpeed() => rotationSpeed * Input.GetAxis(Horizontal);

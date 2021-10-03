@@ -5,15 +5,19 @@ using Player;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class FinishPlatform : MonoBehaviour
+public class FinishPlatform : CollisionHandler
 {
-    [SerializeField] private SceneLoader sceneLoader;
-
-    private void OnCollisionEnter(Collision other)
+    protected override void OnCollisionEnter(Collision other)
     {
-        PlayerComponentCollection.PlayerMovement.enabled = false;
-        PlayerComponentCollection.Rigidbody.constraints = RigidbodyConstraints.None;
-        PlayerComponentCollection.PlayerSFX.MuteEngine(true);
-        sceneLoader.Invoke(nameof(sceneLoader.LoadNextScene), 2);
+        if (IsCollided) return;
+
+        DisableInputMovement();
+        RemoveRigidbodyConstrains();   
+        MutePlayerEngine();
+        
+        PlayerCachedComponents.PlayerSFX.PlaySound(Sound.Success);
+        sceneLoader.Invoke(nameof(sceneLoader.LoadNextScene), sceneLoadDelay);
+
+        IsCollided = true;
     }
 }

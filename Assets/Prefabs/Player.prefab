@@ -323,7 +323,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationSpeed: 150
   boostSpeed: 5500
-  playerSFX: {fileID: 5834804312726164390}
 --- !u!114 &5834804312726164390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -336,7 +335,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 575bd5d9242cee44ab80f31396d63478, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 4773723331127297816}
+  explosion: {fileID: 8300000, guid: b5099af86b04f2b478f92a05a6ab7066, type: 3}
+  success: {fileID: 8300000, guid: 08e6f2da31a7117409215409213a57cc, type: 3}
 --- !u!114 &-5661265712664940162
 MonoBehaviour:
   m_ObjectHideFlags: 0

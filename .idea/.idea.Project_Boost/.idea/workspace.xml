@@ -8,6 +8,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CFC1AD89-0650-411E-946C-FF2E6F276711/2f/8b7d41ed/LayerMask.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SceneLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/FinishPlatform.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -19,10 +20,14 @@
       <option value="$PROJECT_DIR$/Assets/SceneLoader.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerComponentCollection.cs" />
-      <option value="$PROJECT_DIR$/Assets/FinishPlatform.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Obstacle.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerComponentCollection.cs" />
+      <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CFC1AD89-0650-411E-946C-FF2E6F276711/2f/8b7d41ed/LayerMask.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerSFX.Sound.cs" />
+      <option value="$PROJECT_DIR$/Assets/FinishPlatform.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Obstacle.cs" />
+      <option value="$PROJECT_DIR$/Assets/CollisionHandler.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/CachedComponents.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerSFX.cs" />
     </changedPaths>
   </component>
@@ -68,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1633186630488</updated>
       <workItem from="1633186635586" duration="6596000" />
-      <workItem from="1633253976213" duration="9977000" />
+      <workItem from="1633253976213" duration="17589000" />
     </task>
     <servers />
   </component>
