@@ -9,8 +9,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CFC1AD89-0650-411E-946C-FF2E6F276711/2f/8b7d41ed/LayerMask.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SceneLoader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FinishPlatform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerVFX.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -20,15 +19,25 @@
       <option value="$PROJECT_DIR$/Assets/SceneLoader.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerComponentCollection.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerComponentCollection.cs" />
       <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CFC1AD89-0650-411E-946C-FF2E6F276711/2f/8b7d41ed/LayerMask.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerSFX.Sound.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/CachedComponents.cs" />
+      <option value="$PROJECT_DIR$/Assets/CollisionHandler.cs" />
       <option value="$PROJECT_DIR$/Assets/FinishPlatform.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Obstacle.cs" />
-      <option value="$PROJECT_DIR$/Assets/CollisionHandler.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player/CachedComponents.cs" />
+      <option value="$PROJECT_DIR$/Assets/ParticleEffect.cs" />
+      <option value="$PROJECT_DIR$/Assets/PlayerVFX.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enums/ParticleEffect.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerSFX.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerVFX.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Level/Obstacle.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Level/FinishPlatform.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerCachedComponents.cs" />
+      <option value="$PROJECT_DIR$/Assets/Cheat.cs" />
+      <option value="$PROJECT_DIR$/Assets/ObstacleSpinComponent.cs" />
+      <option value="$PROJECT_DIR$/Assets/ObstacleMoveComponent.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1yxI5UfH7DbvbLk0RUo5vCJEI4z" />
@@ -37,6 +46,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3499006" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -53,10 +64,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="11972">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="11972" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -73,7 +84,9 @@
       <option name="presentableId" value="Default" />
       <updated>1633186630488</updated>
       <workItem from="1633186635586" duration="6596000" />
-      <workItem from="1633253976213" duration="17589000" />
+      <workItem from="1633253976213" duration="17850000" />
+      <workItem from="1633360830793" duration="6263000" />
+      <workItem from="1633422841508" duration="9650000" />
     </task>
     <servers />
   </component>
