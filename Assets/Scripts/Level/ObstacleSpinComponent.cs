@@ -1,13 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class ObstacleSpinComponent : MonoBehaviour
+namespace Level
 {
-    [SerializeField] private float spinSpeed;
-    
-    private void Update()
+    public class ObstacleSpinComponent : MonoBehaviour
     {
-        transform.Rotate(Vector3.forward, spinSpeed * Time.deltaTime);
+        [SerializeField] private float spinSpeed;
+    
+        private void Update()
+        {
+            transform.Rotate(Vector3.forward, spinSpeed * Time.deltaTime);
+        }
     }
 }

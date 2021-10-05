@@ -32,12 +32,13 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerSFX.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerVFX.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Level/Obstacle.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Level/FinishPlatform.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerCachedComponents.cs" />
       <option value="$PROJECT_DIR$/Assets/Cheat.cs" />
       <option value="$PROJECT_DIR$/Assets/ObstacleSpinComponent.cs" />
       <option value="$PROJECT_DIR$/Assets/ObstacleMoveComponent.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Level/Obstacle.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Level/ObstacleMoveComponent.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1yxI5UfH7DbvbLk0RUo5vCJEI4z" />
@@ -86,7 +87,7 @@
       <workItem from="1633186635586" duration="6596000" />
       <workItem from="1633253976213" duration="17850000" />
       <workItem from="1633360830793" duration="6263000" />
-      <workItem from="1633422841508" duration="9650000" />
+      <workItem from="1633422841508" duration="14244000" />
     </task>
     <servers />
   </component>

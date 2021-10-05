@@ -1,44 +1,27 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class ObstacleMoveComponent : MonoBehaviour
+namespace Level
 {
-    [SerializeField] private float moveSpeed;
-    [SerializeField] private List<Transform> waypoints;
-
-    private LinkedList<Transform> _wayPoints;
-    private LinkedListNode<Transform> _nextWaypoint;
-    
-    private void Start()
+    public class ObstacleMoveComponent : MonoBehaviour
     {
-        _wayPoints = new LinkedList<Transform>(waypoints);
-        SetNextWaypoint();
-    }
+        [SerializeField] private float moveSpeed = 1f;
+        [SerializeField] private Vector3 localTarget;
 
-    private void Update()
-    {
-        MoveToNextWaypoint();
+        private Vector3 _startingPosition;
+        
+        private void Start()
+        {
+            _startingPosition = transform.position;
+        }
 
-        if (IsObstacleInWaypoint())
-            SetNextWaypoint();
-    }
-
-    private void MoveToNextWaypoint() =>
-        transform.position = Vector3.MoveTowards(transform.position, _nextWaypoint.Value.position, 
-            moveSpeed * Time.deltaTime);
-
-    private void SetNextWaypoint()
-    {
-        if (_nextWaypoint == null | _nextWaypoint == _wayPoints.Last)
-            _nextWaypoint = _wayPoints.First;
-        else
-            _nextWaypoint = _nextWaypoint.Next;
-    }
-
-    private bool IsObstacleInWaypoint()
-    {
-        var distance = Vector3.Distance(transform.position, _nextWaypoint.Value.position);
-        return distance < 0.1f;
+        private void Update()
+        {
+            transform.position = _startingPosition + CalculateOffset();
+        }
+        
+        private Vector3 CalculateOffset() => localTarget * CalculateOffsetFactor();
+        
+        // Value between 0 and 1
+        private float CalculateOffsetFactor() => (Mathf.Sin(Time.time * moveSpeed) + 1) / 2;
     }
 }
