@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace Player
@@ -9,7 +8,6 @@ namespace Player
     [RequireComponent(typeof(PlayerMovement))]
     [RequireComponent(typeof(AudioSource))]
     [RequireComponent(typeof(Rigidbody))]
-    [RequireComponent(typeof(PlayerCachedComponents))]
     public class PlayerCachedComponents : MonoBehaviour
     {
         private PlayerCachedComponents() { }

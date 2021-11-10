@@ -374,22 +374,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1600012667376038207, guid: 258dc55f865860c4d875f7e20e8c88f4, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 4.2499986
-      objectReference: {fileID: 0}
-    - target: {fileID: 1600012667376038207, guid: 258dc55f865860c4d875f7e20e8c88f4, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -4.0484557
-      objectReference: {fileID: 0}
-    - target: {fileID: 1600012668081395482, guid: 258dc55f865860c4d875f7e20e8c88f4, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 4.2499986
-      objectReference: {fileID: 0}
-    - target: {fileID: 1600012668081395482, guid: 258dc55f865860c4d875f7e20e8c88f4, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -4.0484557
-      objectReference: {fileID: 0}
     - target: {fileID: 1600012668081395483, guid: 258dc55f865860c4d875f7e20e8c88f4, type: 3}
       propertyPath: m_Follow
       value: 
@@ -472,10 +456,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Directional Light
       objectReference: {fileID: 0}
-    - target: {fileID: 6311484659222026008, guid: a3acd13a157534e42bf5695381417b44, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6311484659222026010, guid: a3acd13a157534e42bf5695381417b44, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -529,6 +509,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4773723331127297816, guid: ec2b251fa971cfe4d8b1bb113abd43f0, type: 3}
+      propertyPath: Mute
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4773723331127297816, guid: ec2b251fa971cfe4d8b1bb113abd43f0, type: 3}
+      propertyPath: Priority
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4773723331127297816, guid: ec2b251fa971cfe4d8b1bb113abd43f0, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4773723331127297816, guid: ec2b251fa971cfe4d8b1bb113abd43f0, type: 3}
+      propertyPath: reverbZoneMixCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6592161346888402658, guid: ec2b251fa971cfe4d8b1bb113abd43f0, type: 3}
       propertyPath: m_RootOrder
       value: 4

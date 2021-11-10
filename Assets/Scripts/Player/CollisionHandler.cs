@@ -16,8 +16,7 @@ namespace Player
         {
             IsCollided = false;
         }
-
-        protected void MutePlayerEngine() => PlayerCachedComponents.PlayerSFX.MuteEngine(true);
+        
         protected void DisableInputMovement() => PlayerCachedComponents.PlayerMovement.enabled = false;
         protected void RemoveRigidbodyConstrains() => PlayerCachedComponents.Rigidbody.constraints = RigidbodyConstraints.None;
     }

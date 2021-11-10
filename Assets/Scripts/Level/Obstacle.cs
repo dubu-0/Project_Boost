@@ -1,4 +1,3 @@
-using System;
 using Enums;
 using Player;
 using UnityEngine;
@@ -13,7 +12,7 @@ namespace Level
 
             DisableInputMovement();
             RemoveRigidbodyConstrains();
-            MutePlayerEngine();
+            PlayerCachedComponents.PlayerSFX.ChangeEngineVolume(0);
 
             PlayerCachedComponents.PlayerSFX.PlaySound(Sound.Explosion);
             PlayerCachedComponents.PlayerVFX.PlayEffect(ParticleEffect.Explosion, true);

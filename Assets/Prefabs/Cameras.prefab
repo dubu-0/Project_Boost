@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1600012667376038202}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 6.1899986, y: -4.488456, z: 6.4814997}
+  m_LocalPosition: {x: 4.2499986, y: -4.0484557, z: 6.4814997}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1297835315567733047}
@@ -65,7 +65,7 @@ Camera:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_RenderingPath: -1
+  m_RenderingPath: 3
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 3
@@ -231,7 +231,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1600012668081395460}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 6.1899986, y: -4.488456, z: 6.4814997}
+  m_LocalPosition: {x: 4.2499986, y: -4.0484557, z: 6.4814997}
   m_LocalScale: {x: 1, y: -1, z: 1}
   m_Children:
   - {fileID: 1600012667477423070}

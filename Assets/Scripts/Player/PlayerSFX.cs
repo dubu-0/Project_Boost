@@ -1,4 +1,3 @@
-using System;
 using Enums;
 using UnityEngine;
 
@@ -12,7 +11,7 @@ namespace Player
         private AudioClip[] _sounds;
 
         private void Start() => _sounds = new[] { explosion, success };
-        public void MuteEngine(bool mute) => PlayerCachedComponents.AudioSource.mute = mute;
+        public void ChangeEngineVolume(float newVolume) => PlayerCachedComponents.AudioSource.volume = newVolume;
         public void PlaySound(Sound sound) => AudioSource.PlayClipAtPoint(_sounds[(int) sound], transform.position);
     }
 }

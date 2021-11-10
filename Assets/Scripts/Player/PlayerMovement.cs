@@ -31,7 +31,7 @@ namespace Player
         {
             PlayerCachedComponents.Rigidbody.AddRelativeForce(Vector3.up * GetBoostSpeed() * Time.deltaTime);
             PlayerCachedComponents.PlayerVFX.PlayEffect(ParticleEffect.Jet, GetBoostSpeed() > 0);
-            PlayerCachedComponents.PlayerSFX.MuteEngine(GetBoostSpeed() == 0);
+            PlayerCachedComponents.PlayerSFX.ChangeEngineVolume(GetBoostSpeed());
         }
 
         private float GetRotationSpeed() => rotationSpeed * Input.GetAxis(Horizontal);
